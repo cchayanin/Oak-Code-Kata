@@ -7,3 +7,5 @@
 [2. HTML Text](https://github.com/cchayanin/Oak-Code-Kata/tree/master/2.html%20text)
 
 [3. HTML Text Formatting](https://github.com/cchayanin/Oak-Code-Kata/tree/master/3.html%20text%20formatting)
+
+[4. HTML Link](https://github.com/cchayanin/Oak-Code-Kata/tree/master/4.html%20link)
