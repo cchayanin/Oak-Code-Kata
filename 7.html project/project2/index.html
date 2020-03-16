@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+
+<body>
+    <!-- 
+    โจทย์ที่ 1 ทำ Form ให้เหมือนเป๊ะ ตาม file รูป image.png
+    โจทย์ที่ 2 ใส่ Attribute อื่นๆ และ condition อื่นๆ สำหรับ Form
+
+    Code the form with autocomplete active.
+    Given the image shown in Figure 1, it is easy to see that two field sets are used to create the main structure of the form. Your task is to create the field sets, including the names Customer Info and Books. Don't worry about the content fields for the moment.
+    The Name field you create should have autofocus, placeholder text, and be required. Don't forget to select the appropriate type for this field as well as all the fields that follow.
+    The Telephone field should have placeholder text, a pattern to restrict entry, and be required.
+    The Email address field should have placeholder text and allow multiple entries. This field should also be required.
+    The Books field should have a data list. You can select the content you would like to list.
+    The Quantity (Maximum 5) field should have a minimum value of 1 and a maximum value of 5.
+
+     -->
+</body>
+<div>
+    <figure>
+        <figcaption>โจทย์ที่ 1 ทำ Form ให้เหมือนเป๊ะ ตามรูป</figcaption>
+        <img src="https://trello-attachments.s3.amazonaws.com/5dc4a5101a83fd5a7c526bc3/5dc4b63419dee16d16cc039a/09ac06645797c5f53949a10aba8c19d3/image.png"
+            alt="โจทย์">
+    </figure>
+</div>
+
+<form id="orderForm" autocomplete="on">
+    <fieldset style="width: 600px;">
+        <legend>Customer Info</legend>
+        <p>
+            <label>Name:
+                <input id="fullname" name="name" type="text" placeholder="Enter your name" autofocus required size="50">
+            </label>
+        </p>
+        <p>
+            <label>Telephone:
+                <input id="tel" name="telephone" type="tel" required size="50" placeholder="Pattern: 1-234-567-8910"
+                    pattern="([0-9]{1}(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))">
+            </label>
+        </p>
+        <p>
+            <label>E-mail address:
+                <input id="email" name="email" type="email" placeholder="Enter your email address" required size="50">
+            </label>
+        </p>
+    </fieldset>
+    <fieldset style="width: 600px;">
+        <legend>Books</legend>
+        <p>
+            <label>
+                <input type="text" name="productlist" list="books" size="45">
+                <datalist id="books">
+                    <option value="HTML and CSS: Design and Build Websites by Jon Duckett">
+                    <option value="JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett">
+                    <option value="JavaScript & jQuery: The Missing Manual by David Sawyer McFarland">
+                    <option
+                        value="A Smarter Way to Learn HTML & CSS: Learn it faster. Remember it longer by Mark Myers">
+                    <option
+                        value="JavaScript: The Definitive Guide: Activate Your Web Pages (Definitive Guides) by David Flanagan">
+                </datalist>
+            </label>
+            <label>
+                Quantity (Maximum 5): <input name="form_number" id="form_number" type="number" min="1" max="5">
+            </label>
+        </p>
+    </fieldset>
+    <input type="submit" value="Submit" />
+</form>
+
+</html>
