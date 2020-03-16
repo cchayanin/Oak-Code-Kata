@@ -13,3 +13,7 @@
 [5. HTML Image](https://github.com/cchayanin/Oak-Code-Kata/tree/master/5.html%20image)
 
 [6. HTML Form](https://github.com/cchayanin/Oak-Code-Kata/tree/master/6.html%20form)
+
+[7. HTML Project](https://github.com/cchayanin/Oak-Code-Kata/tree/master/7.html%project)
+
+[8. HTML Bootstrap](https://github.com/cchayanin/Oak-Code-Kata/tree/master/8.html%bootstrap)
