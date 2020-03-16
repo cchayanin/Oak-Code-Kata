@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower");
+body {
+  background: #dcebfc;
+  font-family: "Indie Flower", cursive;
+}
+.container {
+  background: #fff;
+  padding: 1.5rem;
+}
+h1,
+h2,
+h3 {
+  color: #4f85d7;
+}
+.footer {
+  font-family: "Dancing Script", cursive;
+}
+
+.front-icon {
+  display: block;
+  color: #ffffff;
+  padding: 3rem;
+  background: #4f85d7;
+}
+
+.front-icon i {
+  font-size: 10rem;
+}
+
+.bg-custom {
+  background: #4f85d7 !important;
+}
