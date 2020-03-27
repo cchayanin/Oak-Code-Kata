@@ -14,6 +14,6 @@
 
 [6. HTML Form](https://github.com/cchayanin/Oak-Code-Kata/tree/master/6.html%20form)
 
-[7. HTML Project](https://github.com/cchayanin/Oak-Code-Kata/tree/master/7.html%project)
+[7. HTML Project](https://github.com/cchayanin/Oak-Code-Kata/tree/master/7.html%20project)
 
-[8. HTML Bootstrap](https://github.com/cchayanin/Oak-Code-Kata/tree/master/8.html%bootstrap)
+[8. HTML Bootstrap](https://github.com/cchayanin/Oak-Code-Kata/tree/master/8.html%20bootstrap)
